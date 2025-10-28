@@ -24,9 +24,9 @@ This project scrapes book information from the first 3 pages of books.toscrape.c
 ### Step 0: Folder layout
 
 ```
-PythonProject/
+hotelshift/
 ├─ .venv/                ← virtual environment (outside repo)
-└─ hotelsheft/          ← your repo
+└─ src/          ← your repo
     ├─ main.py
     ├─ requirements.txt
     └─ ...
@@ -36,7 +36,7 @@ PythonProject/
 ### Step 1: Navigate to Parent Directory
 
 ```
-cd PythonProject
+cd hotelshift
 ```
 
 ### Step 2: Set Up Virtual Environment(Recommended)
@@ -57,7 +57,7 @@ source .venv/bin/activate
 ### Step 3: Install Dependencies
 
 ```
-cd hotelshift
+cd src
 pip install -r requirements.txt
 ```
 This will install:
